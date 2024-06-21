@@ -1,0 +1,336 @@
+/*******************************/
+/*********** Hero CSS **********/
+/*******************************/
+.hero {
+    position: relative;
+    padding: 45px 0;
+    margin: 30px;
+}
+.wrapper {
+    min-height: 100vh;
+}
+
+@media (min-width: 834px) {
+    .hero {
+        padding: 45px 60px;
+    }
+}
+
+.Heading {
+    margin-top: 150px;
+    margin-bottom: 40px;
+    font-size: var(--h1-font-size);
+    font-weight: 800;
+     width: 65%;
+
+}
+
+.Heading span {
+    color: var( --first-color);
+}
+
+.Emp {
+    margin: 10px 0 20px 0px;
+    font-size: var( --small-font-size);
+    font-weight: 500;
+    width: 84%;
+    margin-bottom: 60px;
+}
+.Emp span {
+    color: var( --first-color);
+}
+.docImage{
+    position: relative;
+}
+.btn {
+    position: relative;
+    padding: 20px 4.5rem;
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    background: var(--gradient);
+    transition: .5s;
+}
+
+.btn:hover {
+    background: var(--gradient-2);
+}
+ .booking {
+    margin-bottom: 30px;  /* Add 30px margin at the top of the button */
+  }
+
+.hero img {
+    max-width: 100%;
+    max-height: 600px;
+}
+.linear {
+    position: absolute;  /* Change from relative to fixed */
+    top: 190px;           /* Place it at the top-left corner of the viewport */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;       /* Put it behind other content */
+  }
+  
+  .linear svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+@media (max-width: 834px) {
+    .Heading{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .Emp{
+        width: 100%;
+    }
+    .contain {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+      .docImage, .col-md-6 {
+        width: 100%; /* Make each element take full width */
+    }
+    .btn{
+        padding: 20px 3.8rem;
+    }
+
+}
+
+@media( max-width: 375px){
+    .btn{
+        padding: 15px 32px;
+    }
+}
+.contain {
+    display: flex; /* Enable Flexbox */
+    align-items: center; /* Vertically align items */
+  }
+  
+  .col-md-6 { /* Adjust as needed */
+    padding: 20px; /* Add spacing for better visual separation */
+    flex: 1; /* Allow the text content to take up available space */
+  }
+
+  .docImage {
+  width: 390px; /* Adjust as needed */
+  margin: 20px; /* Add right margin for spacing */
+//   border: 1px solid #ddd; /* Optional border */
+}
+
+.docImage svg {
+  max-width: 99%; /* Ensure the SVG scales within its container */
+  height: auto;  /* Maintain aspect ratio */
+}
+
+// *********************************************************************************************************************************************
+
+
+// /* Frame 10 */
+
+.top-header {
+    box-sizing: border-box;
+    margin: 180px;
+    padding: 20px 40px 30px;
+    background: radial-gradient(114.87% 113.36% at 40.95% -10.45%, #FFFFFF 32.81%, #F8FFFB 97.64%);
+    box-shadow: 6.12195px 14.36585px 29.8537px #C2FFDB, inset 0 0 2px #000cf4;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+}
+
+.top-header-h2 {
+    color: var(--first-color);
+    font-size: 28px;
+    text-align: left;
+}
+
+.input-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.input-group-email, .input-group-contact, .input-group-date, .input-group-book {
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: baseline;
+}
+
+.icon-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+.email-icon, .contact-icon, .appointment-icon, .book-icon {
+    width: 20px;
+    height: 32px;
+
+}
+
+.email-input, .contact-input, .date-input, .book-button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #6D6D6D;
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.email-add, .contact-add, .date-top {
+    font-family: var( --body-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #888888;
+}
+
+.book-button {
+    background: var(--gradient);
+    box-shadow: -8px 8px 28px rgba(0, 0, 0, 0.06);
+    border: 1px solid #6D6D6D;
+    margin-top: 31px;
+    border-radius: 12px;
+    color: #f3efef;
+    font-family: "Manrope";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media (max-width: 768px) {
+    .top-header {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
+        position: relative;
+    }
+    .input-form {
+        width: 100%;
+    }
+
+    .top-header-h2 {
+        margin: 10px 0;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .input-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-group-email, .input-group-contact, .input-group-date, .input-group-book {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .book-button {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .top-header {
+        padding: 20px;
+        margin: 0 10px;
+        width: auto;
+        height: auto;
+        left: 0;
+        top: 51px;
+    }
+
+    .top-header-h2 {
+        font-size: 22px;
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .input-group {
+        margin-top: 70px;
+        width: 100%;
+        max-width: 400px;
+        flex-direction: column;
+    }
+
+    .book-button {
+        position: relative;
+        width: 100%;
+        margin-top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+/* top header */
+
+
+/* Trustees */
+.trustees {
+    position: absolute;
+    width: 404.22px;
+    height: auto;
+    left: 100px;
+    top: 640px;
+    padding: 20px;
+}
+
+.trusted {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B0B0B0;
+    margin-bottom: 10px; /* Add margin to separate text from icons */
+}
+
+.trustees-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.trustees-icons li {
+    list-style: none;
+}
+
+.trustees-icons svg {
+    width: 37px; /* Adjusted size */
+    height: 37px; /* Adjusted size */
+}

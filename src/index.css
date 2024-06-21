@@ -1,13 +1,46 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600;700&display=swap");
+
+* {
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+ --header-height: 3.5rem;
+ --first-color: #000080d3;
+ --second-color: #000cf4;
+ --title-color: #3D3D3D;
+ --tittle-color-2: #ffffff;
+ --text-color: #3D3D3D;
+ --logo-color: linear-gradient(to bottom, #0f4c92c3, #0047abbb, #000080e4);
+ --gradient: linear-gradient(to bottom, #111797, #141a85cb, #111897a9);
+ --gradient-2: linear-gradient(to bottom, #111897a9, #111797, #141a85cb);
+ --body-color: hsl(0, 0%, 6%);
+ --body-font: "Montserrat", sans-serif;
+ --second-font: "Dancing Script", cursive;
+ --h1-font-size: 45px ;
+ --h2-font-size: 20px;
+ --small-font-size: 18px;
+ --font-semi-bold: 600;
+ --z-tooltip: 10;
+ --z-fixed: 100;
+}
+
+body {
+ background-color: var(--body-color);
+ color: var(--text-color);
+ font-family: var(--body-font);
+}
+
+ul {
+ list-style: none;
+}
+
+a {
+ text-decoration: none;
 }

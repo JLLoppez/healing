@@ -1,0 +1,452 @@
+.about-us{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1166px;
+    height: 552px;
+    left: calc(50% - 1166px/2);
+    top: 2100px;
+    
+    background: radial-gradient(114.87% 113.36% at 40.95% -10.45%, #FFFFFF 32.81%, #F8FDFF 97.64%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3.12195px 9.36585px 21.8537px rgba(0, 0, 0, 0.06);
+    border-radius: 28px;
+}
+
+
+
+
+/* Frame 2 */
+.about-us-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px 36px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 309px;
+    height: 60px;
+    left: 568px;
+    top: 424px;
+    
+    background: var(--gradient);
+    box-shadow: -8px 8px 28px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+}
+.about-us-button-p{
+    /* Learn more about us */
+
+    width: 237px;
+    height: 24px;
+    
+    font-family: var( --body-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    
+    color: #FFFFFF;
+}
+
+.about-us-button-header{
+    position: absolute;
+    width: 485px;
+    height: 40px;
+    left: calc(50% - 485px/2 + 0.5px);
+    top: 56px;
+    
+    font-family: var( --body-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    text-align: center;
+    
+    // background: linear-gradient(98.64deg, #0179B4 6.59%, #88D8FF 47.82%);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+    background-clip: text;
+    // text-fill-color: transparent;
+}
+.about-us-button-header  span {
+    color: var( --first-color);
+}
+
+
+
+.about-us-button-text{
+    /* HealNet is more than just an online medical service; it’s a movement towards accessible, efficient, and compassionate healthcare for all. Founded by a team of visionary doctors, healthcare professionals, and technology experts, we are driven by the mission to deliver exceptional medical care directly to you, no matter where you are. Our platform is built on the pillars of trust, innovation, and patient-centricity, ensuring that every interaction is personalized and every treatment plan is tailored to your unique needs. With a network of licensed practitioners from diverse medical fields, we guarantee comprehensive care that’s just a click away. */
+
+    position: absolute;
+    width: 46%;
+    height: 240px;
+    left: 568px;
+    top: 136px;
+    
+    font-family: var( --body-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 150% */
+    
+    /* Neutrals/500 */
+    color: #6D6D6D;
+}
+
+
+.about-us-button-image{
+    /* Rectangle 7 */
+
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 448px;
+    height: 344px;
+    left: 64px;
+    top: 140px;
+    
+    border-radius: 20px;
+}
+
+
+
+@media (max-width : 480px){
+    .about-us{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 100%;
+        height: 1071px;
+        left: 2px;
+        top: 2693px;
+
+        // background: radial-gradient(114.87% 113.36% at 40.95% -10.45%, #FFFFFF 32.81%, #F8FDFF 97.64%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        box-shadow: 3.12195px 9.36585px 21.8537px rgba(0, 0, 0, 0.06);
+        border-radius: 28px;
+     
+    }
+    
+    
+    
+    
+    /* Frame 2 */
+    .about-us-button{
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 18px 36px;
+        gap: 8px;
+        
+        position: absolute;
+        width: 269px;
+        height: 60px;
+        left: calc(50% - 269px/2 - 0.5px);
+        top: 972px;
+        
+        /* Style */
+        background: linear-gradient(180deg, #00F462 -16.77%, rgba(35, 189, 96, 0.61) 62.45%);
+        box-shadow: -8px 8px 28px rgba(0, 0, 0, 0.06);
+        border-radius: 12px;
+    }
+    .about-us-button p{
+        /* Learn more about us */
+
+        width: 205px;
+        height: 24px;
+        
+        font-family: var( --body-font);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height, or 120% */
+        
+        /* Neutrals/900 */
+        color: #3D3D3D;
+    }
+    
+    /* Auto layout */
+    
+    
+    
+    
+    
+    
+    // /* Inside auto layout */
+    // flex: none;
+    // order: 0;
+    // flex-grow: 0;
+    
+    
+    /* HealNet’s Story: Get to know us */
+    .about-us-button-header{
+        /* HealNet’s Story: Get to know us */
+
+        position: absolute;
+        width: 303px;
+        height: 80px;
+        left: calc(50% - 303px/2 + 0.5px);
+        top: 56px;
+        
+        font-family: var( --body-font);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        /* or 125% */
+        text-align: center;
+        
+        /* Style */
+        // background: linear-gradient(180deg, #00F462 -16.77%, rgba(35, 189, 96, 0.61) 62.45%);
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+        // background-clip: text;
+    }
+    
+    
+    
+    .about-us-button-text{
+        /* HealNet is more than just an online medical service; it’s a movement towards accessible, efficient, and compassionate healthcare for all. Founded by a team of visionary doctors, healthcare professionals, and technology experts, we are driven by the mission to deliver exceptional medical care directly to you, no matter where you are. Our platform is built on the pillars of trust, innovation, and patient-centricity, ensuring that every interaction is personalized and every treatment plan is tailored to your unique needs. With a network of licensed practitioners from diverse medical fields, we guarantee comprehensive care that’s just a click away. */
+
+        position: absolute;
+        width: 80%;
+        height: 480px;
+        left: calc(50% - 267px/2 + 0.5px);
+        top: 431px;
+        
+        font-family: var( --body-font);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 150% */
+        
+        /* Neutrals/500 */
+        color: #6D6D6D;
+    
+    }
+    
+    
+    .about-us-button-image{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 280px;
+        height: 215px;
+        left: calc(50% - 280px/2);
+        top: 176px;
+        
+        border-radius: 20px;
+    }
+}
+
+.about-us-how {
+    position: absolute;
+    width: 1101px;
+    height: 640px;
+    left: 261px;
+    /* Adjust top position as needed */
+    /* top: 2780px; */
+}
+
+.about-us-how-h1 {
+    position: absolute;
+    width: 406px;
+    height: 52px;
+    left: calc(50% - 406px/2);
+    // top: 1208px;
+
+    font-family: var( --body-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    /* identical to box height, or 130% */
+    text-align: center;
+
+    /* Neutrals/900 */
+    color: #3D3D3D;
+}
+
+.about-us-how-para {
+    position: absolute;
+    width: 766px;
+    height: 48px;
+    left: calc(50% - 766px/2);
+    top: 2864px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #B0B0B0;
+}
+
+.about-us-how-guide {
+    position: absolute;
+    width: 420px;
+    height: 456px;
+    left: 261px;
+    top: 2964px;
+}
+
+.about-us-guide-1 {
+    position: absolute;
+    width: 406px;
+    height: 128px;
+    left: 261px;
+    top: 2964px;
+}
+
+.about-us-guide-1 span {
+    position: absolute;
+    width: 291px;
+    height: 40px;
+    left: calc(50% - 291px/2 + 14.5px);
+    top: 6px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #3D3D3D;
+}
+
+.about-us-guide-1 p {
+    position: absolute;
+    width: 334px;
+    height: 72px;
+    left: 72px;
+    top: 56px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6D6D6D;
+}
+
+.about-us-guide-2 {
+    position: absolute;
+    width: 406px;
+    height: 128px;
+    left: 261px;
+    top: 3128px;
+}
+
+.about-us-guide-2 span {
+    position: absolute;
+    width: 319px;
+    height: 40px;
+    left: calc(50% - 319px/2 + 28.5px);
+    top: 6px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #3D3D3D;
+}
+
+.about-us-guide-2 p {
+    position: absolute;
+    width: 334px;
+    height: 72px;
+    left: 72px;
+    top: 56px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6D6D6D;
+}
+
+.about-us-guide-3 {
+    position: absolute;
+    width: 420px;
+    height: 128px;
+    left: 261px;
+    top: 3292px;
+}
+
+.about-us-guide-3 span {
+    position: absolute;
+    width: 269px;
+    height: 40px;
+    left: calc(50% - 269px/2 - 3.5px);
+    top: 6px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #3D3D3D;
+}
+
+.about-us-guide-3 p {
+    position: absolute;
+    width: 348px;
+    height: 72px;
+    left: 72px;
+    top: 56px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6D6D6D;
+}
+
+.about-us-how-image {
+    position: absolute;
+    width: 485px;
+    height: 398px;
+    left: 877px;
+    top: 2985px;
+}
+
+.about-us-team {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 12px;
+    position: absolute;
+    width: 349px;
+    height: 44px;
+    left: 1013px;
+    top: 3313px;
+    background: #FFFFFF;
+    box-shadow: -8px 8px 28px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+
+.about-us-team span {
+    width: 261px;
+    height: 20px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000080d3;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.about-us-team-svg {
+    width: 28px;
+    height: 28px;
+    background: #B6FFC6;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
