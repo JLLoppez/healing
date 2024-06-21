@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/healing/static/css/main.69e26a64.css",
+    "main.js": "/healing/static/js/main.22d19f4a.js",
+    "static/js/453.9cba026b.chunk.js": "/healing/static/js/453.9cba026b.chunk.js",
+    "static/media/photo2.jpg": "/healing/static/media/photo2.47221e9b64550bcc8d29.jpg",
+    "static/media/photo3.png": "/healing/static/media/photo3.c01f1b628485b8f01bd2.png",
+    "static/media/photo1.png": "/healing/static/media/photo1.5fd188d169e9a09568e0.png",
+    "index.html": "/healing/index.html",
+    "main.69e26a64.css.map": "/healing/static/css/main.69e26a64.css.map",
+    "main.22d19f4a.js.map": "/healing/static/js/main.22d19f4a.js.map",
+    "453.9cba026b.chunk.js.map": "/healing/static/js/453.9cba026b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69e26a64.css",
+    "static/js/main.22d19f4a.js"
+  ]
+}
