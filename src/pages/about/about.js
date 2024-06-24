@@ -34,7 +34,7 @@ const About = React.forwardRef((props, ref) => {
                         Are you ready to take charge of your health and well-being? Healing is here to guide you through a seamless healthcare journey. Whether you're seeking preventative care, managing a chronic condition, or exploring specialized treatments, we've got you covered.
                         </p>
                 </div>
-                <ol class="about-us-how-guide">
+                <ul class="about-us-how-guide">
                     <li  className="about-us-how-guide-1">
                         <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="52" height="52" rx="26" fill="#000080" fill-opacity="0.82"/>
@@ -59,7 +59,7 @@ const About = React.forwardRef((props, ref) => {
                         <span>Meet Your Doctor</span>
                         <p>Not sure if you need a virtual or in-person doctor appointment? We offer both options to meet your healthcare needs. Certified specialists available for online consultations and physical exams.</p>
                     </li>
-                </ol>
+                </ul>
 
                 <div className="about-us-team">
                 <img 
