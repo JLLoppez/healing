@@ -5,6 +5,10 @@
  left: 0;
  background-color: transparent;
  z-index: var(--z-fixed);
+ transition: background-color 0.3s ease;
+}
+.header.scrolled {
+  background-color: #fffefe;
 }
 
 .nav {
@@ -112,8 +116,8 @@ background: var(--gradient);
   height: 40px;
   width: 40px;
   padding: 0.5rem;
-  border-radius: 50%;
-  background: var(--gradient);
+  // border-radius: 50%;
+  // background: var(--gradient);
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
@@ -123,9 +127,9 @@ background: var(--gradient);
   display: none;
 }
 
-.hamburger:hover {
-    background: var(--gradient);
-}
+// .hamburger:hover {
+//     background: var(--gradient);
+// }
 
 @media screen and (max-width: 1024px) {
   .hamburger {

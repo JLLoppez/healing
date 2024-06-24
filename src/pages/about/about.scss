@@ -1,21 +1,17 @@
 .about-us{
     box-sizing: border-box;
+    display: block;
 
     position: absolute;
     width: 1166px;
     height: 552px;
     left: calc(50% - 1166px/2);
-    top: 2100px;
+    top: 2190px;
     
     background: radial-gradient(114.87% 113.36% at 40.95% -10.45%, #FFFFFF 32.81%, #F8FDFF 97.64%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
     box-shadow: 3.12195px 9.36585px 21.8537px rgba(0, 0, 0, 0.06);
     border-radius: 28px;
 }
-
-
-
-
-/* Frame 2 */
 .about-us-button{
     display: flex;
     flex-direction: row;
@@ -27,25 +23,20 @@
     width: 309px;
     height: 60px;
     left: 568px;
-    top: 424px;
+    top: 462px;
     
     background: var(--gradient);
     box-shadow: -8px 8px 28px rgba(0, 0, 0, 0.06);
     border-radius: 12px;
 }
 .about-us-button-p{
-    /* Learn more about us */
-
     width: 237px;
     height: 24px;
-    
     font-family: var( --body-font);
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 24px;
-    /* identical to box height, or 100% */
-    
+    line-height: 2;
     color: #FFFFFF;
 }
 
@@ -70,14 +61,12 @@
     background-clip: text;
     // text-fill-color: transparent;
 }
+
 .about-us-button-header  span {
     color: var( --first-color);
 }
 
-
-
 .about-us-button-text{
-    /* HealNet is more than just an online medical service; it’s a movement towards accessible, efficient, and compassionate healthcare for all. Founded by a team of visionary doctors, healthcare professionals, and technology experts, we are driven by the mission to deliver exceptional medical care directly to you, no matter where you are. Our platform is built on the pillars of trust, innovation, and patient-centricity, ensuring that every interaction is personalized and every treatment plan is tailored to your unique needs. With a network of licensed practitioners from diverse medical fields, we guarantee comprehensive care that’s just a click away. */
 
     position: absolute;
     width: 46%;
@@ -87,68 +76,63 @@
     
     font-family: var( --body-font);
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     line-height: 26px;
     /* or 150% */
     
     /* Neutrals/500 */
-    color: #6D6D6D;
+    color: var(--other-color);
+}
+.about-us-button-text p {
+    margin-top: 10px;
 }
 
 
 .about-us-button-image{
-    /* Rectangle 7 */
-
     box-sizing: border-box;
-    
     position: absolute;
     width: 448px;
-    height: 344px;
+    height: 380px;
     left: 64px;
     top: 140px;
-    
     border-radius: 20px;
 }
 
+.about-us-button span {
+    width: 100%;
+    font-size: var( --small-font-size);
+    color: #F8FDFF;
+}
 
 
 @media (max-width : 480px){
     .about-us{
         box-sizing: border-box;
-
-        position: absolute;
-        width: 100%;
-        height: 1071px;
+        position: relative;
+        width: 97%;
+        height: 1091px;
         left: 2px;
-        top: 2693px;
-
-        // background: radial-gradient(114.87% 113.36% at 40.95% -10.45%, #FFFFFF 32.81%, #F8FDFF 97.64%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        margin-left: 5px;
+        margin-top: -2080px;
+        background:  #ffffff;
         box-shadow: 3.12195px 9.36585px 21.8537px rgba(0, 0, 0, 0.06);
         border-radius: 28px;
-     
     }
-    
-    
-    
     
     /* Frame 2 */
     .about-us-button{
-        /* Auto layout */
         display: flex;
         flex-direction: row;
         align-items: center;
         padding: 18px 36px;
-        gap: 8px;
-        
+        /* gap: 8px; */
         position: absolute;
         width: 269px;
         height: 60px;
-        left: calc(50% - 269px/2 - 0.5px);
-        top: 972px;
-        
-        /* Style */
-        background: linear-gradient(180deg, #00F462 -16.77%, rgba(35, 189, 96, 0.61) 62.45%);
+        left: calc(50% - 134.5px - 0.5px);
+        top: 999px;
+        background: var(--gradient);
         box-shadow: -8px 8px 28px rgba(0, 0, 0, 0.06);
         border-radius: 12px;
     }
@@ -162,154 +146,186 @@
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 2;
         /* identical to box height, or 120% */
         
         /* Neutrals/900 */
-        color: #3D3D3D;
+        color: var(--other-color);
     }
-    
-    /* Auto layout */
-    
-    
-    
-    
-    
-    
-    // /* Inside auto layout */
-    // flex: none;
-    // order: 0;
-    // flex-grow: 0;
-    
-    
-    /* HealNet’s Story: Get to know us */
     .about-us-button-header{
-        /* HealNet’s Story: Get to know us */
-
         position: absolute;
-        width: 303px;
+        width: 90%;
         height: 80px;
-        left: calc(50% - 303px/2 + 0.5px);
+        left: calc(50% - 191.5px + 0.5px);
         top: 56px;
-        
-        font-family: var( --body-font);
+        font-family: var(--body-font);
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
         line-height: 40px;
-        /* or 125% */
         text-align: center;
-        
-        /* Style */
-        // background: linear-gradient(180deg, #00F462 -16.77%, rgba(35, 189, 96, 0.61) 62.45%);
-        // -webkit-background-clip: text;
-        // -webkit-text-fill-color: transparent;
-        // background-clip: text;
     }
     
     
     
     .about-us-button-text{
-        /* HealNet is more than just an online medical service; it’s a movement towards accessible, efficient, and compassionate healthcare for all. Founded by a team of visionary doctors, healthcare professionals, and technology experts, we are driven by the mission to deliver exceptional medical care directly to you, no matter where you are. Our platform is built on the pillars of trust, innovation, and patient-centricity, ensuring that every interaction is personalized and every treatment plan is tailored to your unique needs. With a network of licensed practitioners from diverse medical fields, we guarantee comprehensive care that’s just a click away. */
-
         position: absolute;
         width: 80%;
         height: 480px;
-        left: calc(50% - 267px/2 + 0.5px);
+        left: calc(50% - 163.5px + 0.5px);
         top: 431px;
-        
-        font-family: var( --body-font);
+        font-family: var(--body-font);
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 14px;
-        line-height: 24px;
-        /* or 150% */
-        
-        /* Neutrals/500 */
-        color: #6D6D6D;
-    
+        line-height: 2;
+        color: var(--other-color);
     }
     
     
     .about-us-button-image{
         box-sizing: border-box;
-
         position: absolute;
-        width: 280px;
+        width: 80%;
         height: 215px;
-        left: calc(50% - 280px/2);
+        left: calc(50% - 165px);
         top: 176px;
-        
         border-radius: 20px;
     }
 }
+@media(min-width: 481px) and (max-width: 880px) {
+    .about-us-button-header {
+        width: 80%;
+        height: 80px;
+        font-family: var(--body-font);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        margin-left: -36px;
+        text-align: center;
+    }
+    .about-us {
+        display: flex;
+        box-sizing: border-box;
+        position: relative;
+        width: 90%;
+        height: 1080px;
+        margin-top: -2080px;
+        margin-left: 36px;
+        left: 2px;
+        background: radial-gradient(114.87% 113.36% at 40.95% -10.45%, #FFFFFF 32.81%, #F8FDFF 97.64%);
+        box-shadow: 3.12195px 9.36585px 21.8537px rgba(0, 0, 0, 0.06);
+        border-radius: 28px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: stretch;
+    }
+    .about-us-button-image {
+        box-sizing: border-box;
+        width: 480px;
+        height: 380px;
+        display: grid;
+        margin-left: 40px;
+        top: 176px;
+        border-radius: 20px;
+    }
+    .about-us-button-text {
+        position: relative;
+        width: 80%;
+        height: auto;
+        left: calc(50% - 263.5px + 0.5px);
+        top: 601px;
+        font-family: var(--body-font);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 2;
+        color: var(--other-color);
+    }
+    .about-us-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 18px 36px;
+        gap: 8px;
+        position: absolute;
+        width: 369px;
+        height: 60px;
+        left: calc(50% - 194.5px - 0.5px);
+        top: 972px;
+        background:var(--gradient);
+        box-shadow: -8px 8px 28px rgba(0, 0, 0, 0.06);
+        border-radius: 12px;
+    }
+}
+
 
 .about-us-how {
-    position: absolute;
+    position: relative;
     width: 1101px;
     height: 640px;
-    left: 261px;
-    /* Adjust top position as needed */
-    /* top: 2780px; */
+    /* left: 181px; */
+    /* border: 1px solid; */
+    top: 980px;
+    display: contents;
 }
 
 .about-us-how-h1 {
-    position: absolute;
-    width: 406px;
-    height: 52px;
-    left: calc(50% - 406px/2);
-    // top: 1208px;
-
-    font-family: var( --body-font);
+    height: auto;
+    position: relative;
+    top: 900px;
+    /* left: calc(50% - 203px); */
+    font-family: var(--body-font);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
+    /* right: 70px; */
     line-height: 52px;
-    /* identical to box height, or 130% */
     text-align: center;
-
-    /* Neutrals/900 */
-    color: #3D3D3D;
+    color: var(--other-color);
+}
+.about-us-how-h1 span{
+    color: var(--first-color);
 }
 
 .about-us-how-para {
-    position: absolute;
-    width: 766px;
-    height: 48px;
-    left: calc(50% - 766px/2);
-    top: 2864px;
-    font-family: 'Manrope';
+    position: relative;
+    width: 90%;
+    margin-left: 78px;
+    height: auto;
+    display: flex;
+    top: 930px;
+    justify-content: center;
+    align-items: stretch;
+    /* margin: 40px; */
+    font-family: var(--body-font);
     font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 2;
     text-align: center;
-    color: #B0B0B0;
+    color: var(--other-color);
+    flex-wrap: wrap;
+    align-content: space-around;
 }
 
-.about-us-how-guide {
-    position: absolute;
-    width: 420px;
-    height: 456px;
-    left: 261px;
-    top: 2964px;
+.about-us-how-guide-1{
+    position: relative;
+    width: 33%;
+    height: auto;
+    left: 190px;
+    top: 1064px;
 }
 
-.about-us-guide-1 {
+.about-us-how-guide-1 span {
     position: absolute;
-    width: 406px;
-    height: 128px;
-    left: 261px;
-    top: 2964px;
-}
-
-.about-us-guide-1 span {
-    position: absolute;
-    width: 291px;
+    width: 100%;
     height: 40px;
-    left: calc(50% - 291px/2 + 14.5px);
+    left: 70px;
     top: 6px;
-    font-family: 'Manrope';
+    font-family: "Manrope";
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -317,101 +333,325 @@
     color: #3D3D3D;
 }
 
-.about-us-guide-1 p {
-    position: absolute;
-    width: 334px;
-    height: 72px;
-    left: 72px;
-    top: 56px;
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 24px;
-    color: #6D6D6D;
+.about-us-how-guide-1 p {
+position: relative;
+width: 76%;
+height: auto;
+left: 72px;
+top: 56px;
+font-family: var( --body-font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+color: var( --other-color);
 }
 
-.about-us-guide-2 {
-    position: absolute;
-    width: 406px;
-    height: 128px;
-    left: 261px;
-    top: 3128px;
+.about-us-how-guide-1 svg {
+/* Frame 22 */
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 0px;
+top: 0px;
+
+background: rgba(0, 0, 128, 0.82);
+border-radius: 100px;
 }
 
-.about-us-guide-2 span {
+.about-us-how-guide-2 {
+    position: relative;
+    width: 33%;
+    height: auto;
+    left: 190px;
+    top: 1154px;
+}
+.about-us-how-guide-2 span{
+    /* Choose Your Service */
+
     position: absolute;
-    width: 319px;
+    width: 100%;
     height: 40px;
-    left: calc(50% - 319px/2 + 28.5px);
+    left: 70px;
     top: 6px;
-    font-family: 'Manrope';
+    font-family: "Manrope";
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
     color: #3D3D3D;
-}
 
-.about-us-guide-2 p {
-    position: absolute;
-    width: 334px;
-    height: 72px;
+}
+.about-us-how-guide-2 p {
+    position: relative;
+    width: 76%;
+    height: auto;
     left: 72px;
     top: 56px;
-    font-family: 'Manrope';
+    font-family: var( --body-font);
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    color: #6D6D6D;
+    color: var( --other-color);
+}
+.about-us-how-guide-2 svg {
+    /* Frame 23 */
+
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(0, 0, 128, 0.82);
+    border-radius: 100px;
 }
 
-.about-us-guide-3 {
-    position: absolute;
-    width: 420px;
-    height: 128px;
-    left: 261px;
-    top: 3292px;
-}
 
-.about-us-guide-3 span {
-    position: absolute;
-    width: 269px;
-    height: 40px;
-    left: calc(50% - 269px/2 - 3.5px);
-    top: 6px;
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
-    color: #3D3D3D;
+.about-us-how-guide-3 {
+    position: relative;
+    width: 33%;
+    height: auto;
+    top: 1234px;
+    left: 190px;
 }
+.about-us-how-guide-3 span{
+/* Meet Your Doctor */
+position: absolute;
+width: 100%;
+height: 40px;
+left: 70px;
+top: 6px;
+font-family: "Manrope";
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+color: #3D3D3D;
 
-.about-us-guide-3 p {
-    position: absolute;
-    width: 348px;
-    height: 72px;
+
+}
+.about-us-how-guide-3 p {
+    /* Have a virtual consultation with one of our certified specialists, or go for a physical visit to the doctor in case you opted for a physical check-up. */
+
+    position: relative;
+    width: 76%;
+    height: auto;
     left: 72px;
     top: 56px;
-    font-family: 'Manrope';
+
+    font-family: var( --body-font);
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    color: #6D6D6D;
-}
+    /* or 171% */
 
-.about-us-how-image {
+    /* Neutrals/500 */
+    color: var( --other-color);
+
+}
+.about-us-how-guide-3 svg {
+
+    /* Frame 24 */
+
     position: absolute;
-    width: 485px;
-    height: 398px;
-    left: 877px;
-    top: 2985px;
+    width: 52px;
+    height: 52px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(0, 0, 128, 0.82);
+    border-radius: 100px;
 }
 
-.about-us-team {
+@media (max-width: 480px){
+    .about-us-how {
+        top: 3780px;
+        display: contents;
+    }
+    
+    .about-us-how-h1 {
+        height: auto;
+        position: relative;
+        top: 2300px;
+        /* left: calc(50% - 203px); */
+        font-family: var(--body-font);
+        font-style: normal;
+        /* margin-left: -370px; */
+        font-size: 28px;
+        width: 90%;
+        margin-left: 82px;
+    }
+    .about-us-how-h1 span{
+        color: var(--first-color);
+    }
+    
+    .about-us-how-para {
+        position: relative;
+        width: 86%;
+        /* margin-left: -220px; */
+        height: auto;
+        /* display: flex; */
+        top: 2320px;
+        margin-left: 30px;
+        justify-content: center;
+        align-items: stretch;
+        /* margin: 40px; */
+        font-family: var(--body-font);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 2;
+        text-align: left;
+        color: var(--other-color);
+        flex-wrap: wrap;
+    }
+    .about-us-how-guide-1{
+        position: relative;
+        width: 100%;
+        height: auto;
+        left: 40px;
+        top: 2363px;
+    }
+    .about-us-how-guide-2 {
+        position: relative;
+        width: 100%;
+        height: auto;
+        left: 40px;
+        top: 2434px;
+    }
+    .about-us-how-guide-3 {
+        position: relative;
+        width: 100%;
+        height: auto;
+        left: 40px;
+        top: 2505px;
+    }
+    .about-us-how-guide-1 span {
+        width: 80%;
+        font-size: 26px;
+    }
+    .about-us-how-guide-2 span {
+        width: 80%;
+        font-size: 26px;
+    }
+    .about-us-how-guide-3 span {
+        width: 80%;
+        font-size: 26px;
+    }
+    
+}
+
+@media (min-width:481px) and (max-width:880px){
+    .about-us-how {
+        top: 2780px;
+        display: contents;
+        height: auto;
+    }
+    
+    .about-us-how-h1 {
+        height: auto;
+        position: relative;
+        top: 2300px;
+        /* left: calc(50% - 203px); */
+        font-family: var(--body-font);
+        font-style: normal;
+        margin-left: 80px;
+        font-weight: 700;
+        font-size: 32px;
+        width: 100%;
+        /* align-items: center; */
+        right: 70px;
+        line-height: 52px;
+        text-align: center;
+        color: var(--other-color);
+    }
+    .about-us-how-h1 span{
+        color: var(--first-color);
+    }
+    
+    .about-us-how-para {
+        position: relative;
+        width: 75%;
+        margin-left: 100px;
+        height: auto;
+        display: flex;
+        top: 2320px;
+        justify-content: center;
+        align-items: stretch;
+        /* margin: 40px; */
+        font-family: var(--body-font);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 2;
+        text-align: left;
+        color: var(--other-color);
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+
+    .about-us-how-guide-1{
+        position: relative;
+        width: 80%;
+        height: auto;
+        left: 90px;
+        top: 2434px;
+    }
+    .about-us-how-guide-2 {
+        position: relative;
+        width: 80%;
+        height: auto;
+        left: 90px;
+        top: 2534px;
+    }
+    .about-us-how-guide-3 {
+        position: relative;
+        width: 80%;
+        height: auto;
+        left: 90px;
+        top: 2505px;
+    }
+    .about-us-how-guide-1 span {
+        width: 80%;
+        font-size: 26px;
+    }
+    .about-us-how-guide-2 span {
+        width: 80%;
+        font-size: 26px;
+    }
+    .about-us-how-guide-3 span {
+        width: 80%;
+        font-size: 26px;
+    }
+
+}
+
+
+.about-us-team{
+    position: relative;
+    width: 40%;
+    display: flex;
+    height: auto;
+    left: 730px;
+    top: 878px;
+
+}
+
+.about-us-team img{
+    position: absolute;
+    width: 368px;
+    height: auto;
+    /* top: 29px; */
+    bottom: 40px;
+    left: 101px;
+}
+
+
+.about-us-team-p{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -420,33 +660,66 @@
     position: absolute;
     width: 349px;
     height: 44px;
-    left: 1013px;
-    top: 3313px;
+    /* left: 1016px; */
+    border: 1px solid #00008091;
+    left: 257px;
+    bottom: 72px;
+    /* top: 06px; */
     background: #FFFFFF;
     box-shadow: -8px 8px 28px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
 }
 
-.about-us-team span {
+.about-us-team-p svg {
+/* Frame 5 */
+
+width: 28px;
+height: 28px;
+
+/* Primary Blues/200 */
+background: #CACAD7;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.about-us-team-p span {
+
     width: 261px;
     height: 20px;
+    
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    color: #000080d3;
+    /* identical to box height, or 125% */
+    
+    /* Primary Blues/700 */
+    color: var(--first-color);
+    
+    
+    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
+    
 }
 
-.about-us-team-svg {
-    width: 28px;
-    height: 28px;
-    background: #B6FFC6;
-    border-radius: 4px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
+
+// /* Vector */
+
+// position: absolute;
+// width: 18px;
+// height: 16px;
+// left: calc(50% - 18px/2);
+// top: calc(50% - 16px/2);
+
+// /* Primary Blues/700 */
+// background: var(--first-color);
+
+
+/* Best Certified Team of Specialists */

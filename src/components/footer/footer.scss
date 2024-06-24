@@ -27,7 +27,7 @@ height: 48px;
 left: 100px;
 top: 258px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -35,7 +35,7 @@ line-height: 24px;
 /* or 150% */
 
 /* Neutrals/500 */
-color: #6D6D6D;
+color: var(--other-color);
 
 
 
@@ -57,7 +57,7 @@ height: 24px;
 left: 527px;
 top: 72px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -77,7 +77,7 @@ height: 24px;
 left: 527px;
 top: 116px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -85,7 +85,7 @@ line-height: 24px;
 /* identical to box height, or 150% */
 
 /* Neutrals/500 */
-color: #6D6D6D;
+color: var(--other-color);
 
 
 
@@ -97,7 +97,7 @@ height: 24px;
 left: 527px;
 top: 156px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -105,7 +105,7 @@ line-height: 24px;
 /* identical to box height, or 150% */
 
 /* Neutrals/500 */
-color: #6D6D6D;
+color: var(--other-color);
 
 
 
@@ -117,7 +117,7 @@ height: 24px;
 left: 527px;
 top: 196px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -125,7 +125,7 @@ line-height: 24px;
 /* identical to box height, or 150% */
 
 /* Neutrals/500 */
-color: #6D6D6D;
+color: var(--other-color);
 
 
 
@@ -137,7 +137,7 @@ height: 24px;
 left: 527px;
 top: 236px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -145,7 +145,7 @@ line-height: 24px;
 /* identical to box height, or 150% */
 
 /* Neutrals/500 */
-color: #6D6D6D;
+color: var(--other-color);
 
 
 
@@ -157,7 +157,7 @@ height: 24px;
 left: 527px;
 top: 276px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -165,7 +165,7 @@ line-height: 24px;
 /* identical to box height, or 150% */
 
 /* Neutrals/500 */
-color: #6D6D6D;
+color: var(--other-color);
 
 
 
@@ -187,7 +187,7 @@ height: 24px;
 left: 852px;
 top: 72px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -207,7 +207,7 @@ height: 24px;
 left: 852px;
 top: 116px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -215,7 +215,7 @@ line-height: 24px;
 /* identical to box height, or 150% */
 
 /* Neutrals/500 */
-color: #6D6D6D;
+color: var(--other-color);
 
 
 
@@ -227,7 +227,7 @@ height: 24px;
 left: 852px;
 top: 156px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -235,7 +235,7 @@ line-height: 24px;
 /* identical to box height, or 150% */
 
 /* Neutrals/500 */
-color: #6D6D6D;
+color: var(--other-color);
 
 
 
@@ -247,7 +247,7 @@ height: 24px;
 left: 852px;
 top: 196px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -255,7 +255,7 @@ line-height: 24px;
 /* identical to box height, or 150% */
 
 /* Neutrals/500 */
-color: #6D6D6D;
+color: var(--other-color);
 
 
 
@@ -267,7 +267,7 @@ height: 24px;
 left: 852px;
 top: 236px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -275,7 +275,7 @@ line-height: 24px;
 /* identical to box height, or 150% */
 
 /* Neutrals/500 */
-color: #6D6D6D;
+color: var(--other-color);
 
 
 
@@ -287,7 +287,7 @@ height: 24px;
 left: 852px;
 top: 276px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -295,7 +295,7 @@ line-height: 24px;
 /* identical to box height, or 150% */
 
 /* Neutrals/500 */
-color: #6D6D6D;
+color: var(--other-color);
 
 
 
@@ -317,7 +317,7 @@ height: 24px;
 left: 1207px;
 top: 72px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -337,7 +337,7 @@ height: 24px;
 left: 1207px;
 top: 116px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -345,7 +345,7 @@ line-height: 24px;
 /* identical to box height, or 150% */
 
 /* Neutrals/500 */
-color: #6D6D6D;
+color: var(--other-color);
 
 
 
@@ -357,7 +357,7 @@ height: 24px;
 left: 1207px;
 top: 156px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -365,7 +365,7 @@ line-height: 24px;
 /* identical to box height, or 150% */
 
 /* Neutrals/500 */
-color: #6D6D6D;
+color: var(--other-color);
 
 
 
@@ -377,7 +377,7 @@ height: 24px;
 left: 1207px;
 top: 196px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -385,7 +385,7 @@ line-height: 24px;
 /* identical to box height, or 150% */
 
 /* Neutrals/500 */
-color: #6D6D6D;
+color: var(--other-color);
 
 
 
@@ -397,7 +397,7 @@ height: 24px;
 left: 1207px;
 top: 236px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -405,7 +405,7 @@ line-height: 24px;
 /* identical to box height, or 150% */
 
 /* Neutrals/500 */
-color: #6D6D6D;
+color: var(--other-color);
 
 
 
@@ -417,7 +417,7 @@ height: 24px;
 left: 1207px;
 top: 276px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -425,7 +425,7 @@ line-height: 24px;
 /* identical to box height, or 150% */
 
 /* Neutrals/500 */
-color: #6D6D6D;
+color: var(--other-color);
 
 
 
@@ -526,7 +526,7 @@ left: calc(50% - 1306.01px/2 + 3px);
 top: 357px;
 
 /* Primary Blues/200 */
-border: 2px solid #B6FFC6;
+border: 2px solid #CACAD7;
 
 
 /* HealNet 2024 © All Rights Reserved */
@@ -537,16 +537,16 @@ height: 24px;
 left: 995px;
 top: 380px;
 
-font-family: 'Manrope';
+font-family: var(--body-font);
 font-style: normal;
-font-weight: 600;
+font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 /* identical to box height, or 150% */
 text-align: right;
 
 /* Neutrals/300 */
-color: #B0B0B0;
+color: var(--other-color);
 
 
 

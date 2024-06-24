@@ -9,6 +9,9 @@
 .wrapper {
     min-height: 100vh;
 }
+.error-message{
+    color: var(--alert-message);
+}
 
 @media (min-width: 834px) {
     .hero {
@@ -31,9 +34,10 @@
 
 .Emp {
     margin: 10px 0 20px 0px;
-    font-size: var( --small-font-size);
+    font-size: var( --body-font);
     font-weight: 500;
     width: 84%;
+    line-height: 2;
     margin-bottom: 60px;
 }
 .Emp span {
@@ -89,6 +93,7 @@
     }
     .Emp{
         width: 100%;
+        line-height: 2.5;
     }
     .contain {
         flex-direction: column; /* Stack elements vertically on smaller screens */
@@ -190,7 +195,7 @@
 
 }
 
-.email-input, .contact-input, .date-input, .book-button {
+.email-input, .PhoneInput, .date-input, .book-button {
     box-sizing: border-box;
     width: 100%;
     height: 60px;
@@ -202,15 +207,17 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
+    transition: box-shadow cubic-bezier(0.25, 0.1, 0, 0.47) .25s, border-color ease .25s;
 }
+.email-input, .PhoneInput, .date-input
 
 .email-add, .contact-add, .date-top {
     font-family: var( --body-font);
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    color: #888888;
+    line-height: 2;
+    color: var(--other-color);
 }
 
 .book-button {
@@ -223,7 +230,7 @@
     font-family: "Manrope";
     font-weight: 700;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 2;
 }
 
 @media (max-width: 768px) {
@@ -311,10 +318,10 @@
 .trusted {
     font-family: "Manrope";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    color: #B0B0B0;
+    line-height: 2;
+    color: var(--other-color);
     margin-bottom: 10px; /* Add margin to separate text from icons */
 }
 
