@@ -17,7 +17,7 @@
  justify-content: space-between;
  position: relative;
  height: var(--header-height);
- margin: 1rem auto;
+ margin: 1rem 80px;
 }
 
 .nav__logo {
@@ -85,6 +85,7 @@ background: var(--gradient);
 @media screen and (min-width: 1150px) {
     .nav {
       height: calc(var(--header-height) + 1rem);
+      margin: 1rem 60px;
     }
     .nav__toggle,
     .nav__close {

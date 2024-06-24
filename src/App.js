@@ -17,7 +17,7 @@ function App() {
     <div className='App'>
       <NavBar
         homeRef={homeRef}
-        servicesRef={servicesRef}
+        servicesRef={servicesRef}yes
         // ... (pass other refs)
       />
 
