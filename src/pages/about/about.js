@@ -1,7 +1,7 @@
 import React from "react";
 import './about.scss';
 import photo2 from '../images/photo2.jpg';
-import photo3 from '../images/photo3.png';
+// import photo3 from '../images/photo3.png';
 
 const About = React.forwardRef((props, ref) => {
     return (
@@ -34,7 +34,7 @@ const About = React.forwardRef((props, ref) => {
                         Are you ready to take charge of your health and well-being? Healing is here to guide you through a seamless healthcare journey. Whether you're seeking preventative care, managing a chronic condition, or exploring specialized treatments, we've got you covered.
                         </p>
                 </div>
-                <ul class="about-us-how-guide">
+                {/* <ul class="about-us-how-guide">
                     <li  className="about-us-how-guide-1">
                         <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="52" height="52" rx="26" fill="#000080" fill-opacity="0.82"/>
@@ -98,7 +98,7 @@ const About = React.forwardRef((props, ref) => {
                         </svg>
                         <span>Best Certified Team of Specialists</span>
                     </p>
-                </div>
+                </div> */}
             </div>
         </div>
     );

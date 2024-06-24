@@ -32,7 +32,8 @@
 }
 
 .nav__cta {
-background: var(--gradient);
+  background: var(--gradient);
+  box-shadow: -8px 8px 28px rgba(0, 0, 0, 0.06);
  color: var( --tittle-color-2);
  border: none;
  border-radius: 12px;
