@@ -1,0 +1,93 @@
+
+.contact-form-input-button-us{/* Contact us */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 24px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 205px;
+    height: 64px;
+    left: 982px;
+    top: 5755.3px;
+    
+    /* New */
+    background: linear-gradient(180deg, rgba(15, 77, 146, 0.24) 25%, rgba(0, 71, 171, 0.65) 41.54%, rgba(0, 0, 128, 0.79) 56.13%);
+    box-shadow: -8px 8px 28px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+   
+}
+.contact-form-input-button-top{
+    width: 129px;
+    height: 24px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    
+    /* Neutrals/50 */
+    color: #F6F6F6;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.contact-form-input-email{
+/* Frame 11 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 18px;
+gap: 12px;
+
+position: absolute;
+width: 298px;
+height: 64px;
+left: 617px;
+top: 5755.3px;
+
+background: #FFFFFF;
+border-radius: 12px;
+
+}
+
+.contact-form-input-email-add{
+/* Enter Your Email Address */
+
+width: 189px;
+height: 24px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Neutrals/300 */
+color: #B0B0B0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+
+
+

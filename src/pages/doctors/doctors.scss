@@ -1,0 +1,237 @@
+.doctors{
+    position: relative;
+    width: 80%;
+    margin-left: 135px;
+    height: auto;
+    /* left: calc(50% - 394.5px + 0.5px); */
+    /* top: 4439px; */
+    bottom: 3300px;
+}
+
+.docs-top{
+    /* Masters of Medicine: Meet our team of specialists */
+
+    position: absolute;
+    width: 557px;
+    height: 104px;
+    left: calc(50% - 547px/2 + 0.5px);
+    top: 4439px;
+
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    /* or 130% */
+    text-align: center;
+
+    // color: rgba(0, 0, 128, 0.82);
+}
+.docs-top span {
+    color: var(--first-color); /* Assuming --first-color is defined elsewhere */
+  }
+
+.docs-p{
+    /* Our team of specialists is at the forefront of medical innovation. Each specialist brings a unique blend of expertise, empathy, and experience to ensure that your health is in the best hands: */
+
+    position: absolute;
+    width: 740px;
+    height: auto;
+    left: calc(50% - 740px/2);
+    top: 4575px;
+
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2;
+    /* or 150% */
+    text-align: center;
+
+    /* Neutrals/300 */
+    color: var(--other-color);
+}
+
+.docs-cards{
+    position: relative;
+    width: 100%;
+    /* margin-left: 70px; */
+    height: auto;
+    
+}
+
+.docs-cards-1{
+    /* Group 19 */
+
+    position: absolute;
+    width: 789px;
+    height: 370.35px;
+    left: calc(50% - 789px/2 + 0.5px);
+    top: 4359px;
+
+}
+
+.docs-cards-1-svg {
+    /* Rectangle 9 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 778px;
+    height: 340px;
+    left: 337px;
+    top: 4689.35px;
+
+    /* radiaal */
+    background: radial-gradient(94.62% 124.56% at 40.95% -10.45%, #FFFFFF 44.28%, rgba(8, 8, 207, 0.63) 97.64%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 2px solid rgba(0, 0, 128, 0.82);
+    box-shadow: 3.12195px 9.36585px 21.8537px rgba(0, 0, 0, 0.06);
+    border-radius: 28px;
+}
+
+.docs-cards-1-h2 {
+    position: relative;
+    width: 50%;
+    height: 40px;
+    left: calc(50% - 194px + 164px);
+    /* top: 4721px; */
+    bottom: 330px;
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 40px;
+    color: #4F4F4F;
+}
+
+.docs-cards-1-p  {/* Heart health is Dr. Wong’s passion, and her approach to cardiology integrates cutting-edge technology with compassionate care. She’s a respected voice in the prevention of heart disease and a trusted partner to her patients on their journey to wellness. */
+
+    position: relative;
+    width: 50%;
+    height: 144px;
+    /* left: 690px; */
+    left: 364px;
+    bottom: 310px;
+    /* top: 4773.35px; */
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #454545;
+}
+
+.docs-cards-1-button{/* button */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 20px;
+    padding: 12px 22px;
+    gap: 45px;
+    font-size: 16px;
+    position: relative;
+    width: 246px;
+    height: auto;
+    left: 363px;
+    bottom: 290px;
+    /* left: 690px; */
+    /* top: 4933.35px; */
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.docs-cards-2{   /* Group 19 */
+
+    position: absolute;
+    width: 789px;
+    height: 370.35px;
+    left: calc(50% - 789px/2 + 0.5px);
+    top: 4789px;
+}
+
+ .docs-cards-2-svg { 
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 778px;
+    height: 340px;
+    left: 337px;
+    top: 4689.35px;
+
+    /* radiaal */
+    background: radial-gradient(94.62% 124.56% at 40.95% -10.45%, #FFFFFF 44.28%, rgba(8, 8, 207, 0.63) 97.64%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 2px solid rgba(0, 0, 128, 0.82);
+    box-shadow: 3.12195px 9.36585px 21.8537px rgba(0, 0, 0, 0.06);
+    border-radius: 28px;
+}
+
+ .docs-cards-2-h2 {
+    position: relative;
+    width: 50%;
+    height: 40px;
+    left: calc(50% - 194px + 164px);
+    /* top: 4721px; */
+    bottom: 330px;
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 40px;
+    color: #4F4F4F;
+ }
+
+.docs-cards-2-p {
+    position: relative;
+    width: 50%;
+    height: 144px;
+    /* left: 690px; */
+    left: 364px;
+    bottom: 310px;
+    /* top: 4773.35px; */
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #454545;
+}
+
+ .docs-cards-2-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 20px;
+    padding: 12px 22px;
+    gap: 45px;
+    font-size: 16px;
+    position: relative;
+    width: 246px;
+    height: auto;
+    left: 363px;
+    bottom: 290px;
+    /* left: 690px; */
+    /* top: 4933.35px; */
+    background: #FFFFFF;
+    border-radius: 12px;
+ }
+
+
+/* Doctor-Free-PNG-Image 1 */
+.docs-cards-1-image{
+    position: relative;
+    width: 288.57px;
+    height: 388.35px;
+    top: 353px;
+}
+
+.docs-cards-2-image{
+    position: relative;
+    width: 378.57px;
+    right: 35px;
+    height: 440.35px;
+    top: 355px;
+}
+
+
+

@@ -1,7 +1,7 @@
 import React from "react";
 import './about.scss';
 import photo2 from '../images/photo2.jpg';
-// import photo3 from '../images/photo3.png';
+import photo3 from '../images/photo3.png';
 
 const About = React.forwardRef((props, ref) => {
     return (
@@ -25,7 +25,7 @@ const About = React.forwardRef((props, ref) => {
                     <span className="about-us-button-span">Learn more about us</span>
                 </button>
             </div>
-            {/* <div className="about-us-how">
+            <div className="about-us-how">
                 <div >
                         <h1 className="about-us-how-h1">How
                             <span> our platform</span> works
@@ -99,7 +99,7 @@ const About = React.forwardRef((props, ref) => {
                         <span>Best Certified Team of Specialists</span>
                     </p>
                 </div>
-            </div> */}
+            </div>
         </div>
     );
 });

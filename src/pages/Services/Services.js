@@ -10,7 +10,8 @@ const Services = React.forwardRef ((props, ref) => {
                         <span> services</span> we offer
                     </h1>
                     <p className="service-p">
-                    Reclaim control of your health with Healing's integrated digital platform. We offer a convenient, comprehensive approach to healthcare, designed to fit seamlessly into your busy life.                    </p>
+                    Reclaim control of your health with Healing's integrated digital platform. We offer a convenient, comprehensive approach to healthcare, designed to fit seamlessly into your busy life.                    
+                    </p>
                 </div>
                 <div className="service-group">
                     <div className="online-cons">

@@ -228,7 +228,7 @@
     margin-top: 31px;
     border-radius: 12px;
     color: #f3efef;
-    font-family: "Manrope";
+    font-family: var(--body-font);
     font-weight: 700;
     font-size: 16px;
     line-height: 2;
@@ -317,7 +317,7 @@
 }
 
 .trusted {
-    font-family: "Manrope";
+    font-family: var(--body-font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
