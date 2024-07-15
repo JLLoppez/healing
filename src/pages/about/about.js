@@ -61,7 +61,7 @@ const About = React.forwardRef((props, ref) => {
                     </li>
                 </ul>
 
-                <div className="about-us-team">
+                {/*<div className="about-us-team">
                 <img 
                     alt=""
                     src={photo3} 
@@ -98,7 +98,7 @@ const About = React.forwardRef((props, ref) => {
                         </svg>
                         <span>Best Certified Team of Specialists</span>
                     </p>
-                </div>
+                </div>*/}
             </div>
         </div>
     );
