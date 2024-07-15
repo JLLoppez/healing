@@ -15,8 +15,8 @@ function App() {
   const homeRef = useRef(null);
   const servicesRef = useRef();
   const aboutRef = useRef(null);
-  const doctorsRef = useRef(null);
-  const contactRef = useRef(null);
+  //const doctorsRef = useRef(null);
+  //const contactRef = useRef(null);
 
   return (
     <div className='App'>
@@ -24,8 +24,8 @@ function App() {
         homeRef={homeRef}
         servicesRef={servicesRef}
         aboutRef={aboutRef}
-        doctorsRef={doctorsRef}
-        contactRef={contactRef}
+        //doctorsRef={doctorsRef}
+      //  contactRef={contactRef}
         // ... (pass other refs)
       />
 
