@@ -5,11 +5,11 @@ import NavBar from './components/navigation/nav';
 import Home from './pages/home/home';
 import About from './pages/about/about';
 import Services from './pages/Services/Services';
-import Contact from './pages/contact/contact';
+//import Contact from './pages/contact/contact';
 // import Blog from './pages/blog/Blog';
 // import Footer from './components/footer/footer';
 import './App.css'; // Assuming you have global styles
-import Doctors from './pages/doctors/doctors';
+//import Doctors from './pages/doctors/doctors';
 
 function App() {
   const homeRef = useRef(null);
@@ -36,8 +36,8 @@ function App() {
             <Home ref={homeRef} />
             <Services ref={servicesRef} />
             <About ref ={aboutRef}/>
-            <Doctors ref={doctorsRef}/>
-            <Contact ref={contactRef}/>
+            {/*<Doctors ref={doctorsRef}/>
+            <Contact ref={contactRef}/>*/}
           </>
         } />
       </Routes> 
