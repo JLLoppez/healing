@@ -58,7 +58,7 @@ const Home = React.forwardRef((props, ref) => {
   // Calendly Popup Function
   const handleCalendlyClick = () => {
     if (calendlyRef.current) {  
-      calendlyRef.current.initPopupWidget({ url: 'YOUR_CALENDLY_LINK' });
+      calendlyRef.current.initPopupWidget({ url:  "https://calendly.com/contact-jallopes"});
     } else {
       console.error("Calendly script not loaded yet.");
     }
