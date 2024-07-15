@@ -29,7 +29,7 @@ const NavBar = ({ homeRef, servicesRef, doctorsRef, aboutRef, blogRef, contactRe
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <nav className="nav container">
         <NavLink to="/" className="nav__logo">
-          <svg width="218" height="50" viewBox="0 0 218 50" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+          <svg width="218" height="50" viewBox="0 0 218 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5 29.2174C5 26.8879 5.48855 24.5811 6.43782 22.429C7.3871 20.2767 8.77842 18.3212 10.5324 16.6739C12.2864 15.0267 14.3687 13.72 16.6603 12.8285C18.9521 11.9372 21.4083 11.4783 23.8889 11.4783V29.2174H5Z" fill="#000080d3" fillOpacity="0.8"/>
             <path d="M5 29.2174C5 31.684 5.48855 34.1264 6.43782 36.4053C7.3871 38.6841 8.77842 40.7546 10.5324 42.4987C12.2864 44.2428 14.3687 45.6264 16.6603 46.5703C18.9521 47.5142 21.4083 48 23.8889 48V29.2174H5Z" fill="#000080d3"/>
             <path d="M42.7778 29.2174C42.7778 31.684 42.2896 34.1264 41.3404 36.4053C40.3911 38.6841 38.9999 40.7546 37.2455 42.4987C35.4915 44.2428 33.4092 45.6264 31.1174 46.5703C28.8258 47.5142 26.3694 48 23.8889 48V29.2174H42.7778Z" fill="#000080d3"/>
