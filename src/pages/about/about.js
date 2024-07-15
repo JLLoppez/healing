@@ -1,7 +1,7 @@
 import React from "react";
 import './about.scss';
 import photo2 from '../images/photo2.jpg';
-import photo3 from '../images/photo3.png';
+//import photo3 from '../images/photo3.png';
 
 const About = React.forwardRef((props, ref) => {
     return (
